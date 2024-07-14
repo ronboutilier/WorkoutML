@@ -14,7 +14,7 @@ WorkoutML allows users to define workout blocks, training profiles, and overall 
 A Workout Block consists of exercises grouped by specific training mechanisms. Each block can focus on different fitness goals such as strength, endurance, or hypertrophy.
 
 Example:
-\`\`\`yaml
+'''yaml
 workout:
   - block: "Strength Training Block"
     description: "A block focusing on strength training"
@@ -34,7 +34,7 @@ workout:
             levels: [3]
             rep_units: "reps"
             phases: ["Primary"]
-\`\`\`
+'''
 
 ### Training Profiles
 
