@@ -33,6 +33,7 @@ workout:
             levels: [3]
             rep_units: "reps"
             phases: ["Primary"]
+'''
 
 ### Training Profiles
 Training profiles define the structure of workout cycles, including the number of cycles, days per cycle, and intensity levels.
