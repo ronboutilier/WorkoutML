@@ -41,7 +41,7 @@ workout:
 Training profiles define the structure of workout cycles, including the number of cycles, days per cycle, and intensity levels.
 
 Example:
-\`\`\`yaml
+~~~yaml
 training_profiles:
   - num_cycles: 3
     days_per_cycle: 7
@@ -50,14 +50,14 @@ training_profiles:
     block:
       block: "Strength Training Block"
       description: "A block focusing on strength training"
-\`\`\`
+~~~
 
 ### Programs
 
 Programs combine multiple training profiles to create a comprehensive fitness plan.
 
 Example:
-\`\`\`yaml
+~~~yaml
 programs:
   - program: "Ultimate Fitness Program"
     details: "A comprehensive program for overall fitness"
@@ -82,7 +82,7 @@ programs:
           block:
             block: "Endurance Training Block"
             description: "A block focusing on endurance training"
-\`\`\`
+~~~
 
 ## Best Practices
 
@@ -98,9 +98,9 @@ programs:
 ## Getting Started
 
 1. **Clone the Repository**:
-   \`\`\`bash
-   git clone https://github.com/yourusername/workoutml.git
-   \`\`\`
+   ~~~bash
+   git clone https://github.com/ronboutilier/workoutml.git
+   ~~~
 
 2. **Explore the Documentation**: Start with the [Introduction](docs/introduction.md) to understand the basics of WorkoutML.
 
